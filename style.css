@@ -1,0 +1,8 @@
+header {
+    height:400px;
+    background-color: darkslategrey;
+    border:1px solid #CCC;
+    width:1000px;
+    margin:0px auto;
+    position: relative;
+}

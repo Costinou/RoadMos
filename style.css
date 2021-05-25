@@ -1,8 +1,75 @@
+*{
+    border: none;
+    margin: 0%;
+}
+
 header {
-    height:400px;
-    background-color: darkslategrey;
-    border:1px solid #CCC;
-    width:1000px;
-    margin:0px auto;
-    position: relative;
+    margin-bottom: 0;
+    padding: 30px 0 50px 20px;
+    background-color: #d29948;
+}
+
+.formation {
+    border: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.experience {
+    border: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.photo {
+    border-top;
+    display: flex;
+    justify-content: center;
+    image-rendering: crisp-edges;
+    margin: auto;
+    background-image: initial;
+    block-size:200px;
+    
+}
+
+h1, h2, h3, li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #686868;
+}
+
+h2{
+font-size: 24px;
+}
+
+h3{
+font-size: 18px;
+}
+
+#rubangauche {
+    float:left;
+    width:25%;
+    margin-right: 10px;
+    border-right-style: groove;
+    height: 100%;
+}
+
+#rubandroite {
+    margin-left:25%
+}
+
+/* Pied de page */
+
+footer {
+    background-color: #d29948;
+    background-size: contain;
+    position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+footer h1{
+margin-bottom: 5px;
+margin-top: 5px;
 }
